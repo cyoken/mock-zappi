@@ -2,12 +2,15 @@
 
 Represents the zappi server
 
-
 ## Configuration
 
 Install the required ruby gems:
 
     bundle install
+
+run migrations
+
+    rake db:migrate
 
 ## Running
 

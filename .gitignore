@@ -16,3 +16,5 @@
 
 # ignore generated documentation
 /doc/app
+/.ruby-version
+/.ruby-gemset

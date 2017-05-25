@@ -1,0 +1,17 @@
+
+
+
+<form method="POST" action="http://localhost:3000/single_sign_on_sessions">
+
+    <input type="text" name="token" size="180" value="<%= JWTWrapper.encode({ user_id: 6061, dashboard_id: 984 }) %>" />
+    <input type="text" name="partner" size="180" value="zappistore" />
+
+</form>
+
+<script>
+    $(function() {
+        // submit the form
+        document.forms[0].submit();
+    });
+</script>
+    

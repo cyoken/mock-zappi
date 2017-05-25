@@ -2,11 +2,13 @@
 
 <p>This is the linking point to the other app:</p>
 
-<form method="POST" action="http://localhost:3000/single_sign_on_sessions">
+<p>
+    
+<%= link_to "Launch Dashboard 983", '/launch/983', target: :blank %>
+</p>
 
-    <input type="text" name="token" size="180" value="<%= JWTWrapper.encode({ user_id: 6061, dashboard_id: 984 }) %>" />
-    <input type="text" name="partner" size="180" value="zappistore" />
-    <input type="submit" value="Start" />
+<p>
+<%= link_to "Launch Dashboard 984", '/launch/984', target: :blank %>
+</p>
 
-</form>
 

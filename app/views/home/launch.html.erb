@@ -1,10 +1,10 @@
 
 
 
-<form method="POST" action="http://localhost:3000/single_sign_on_sessions">
+<form method="POST" action="https://sand-qual.dev.affdex.com/single_sign_on_sessions">
 
-    <input type="text" name="token" size="180" value="<%= JWTWrapper.encode({ user_id: 6061, dashboard_id: 984 }) %>" />
-    <input type="text" name="partner" size="180" value="zappistore" />
+    <input type="text" name="token" size="180" value="<%= JWTWrapper.encode({ user_id: 6061, dashboard_id: 23643, movie_id: @movie_id }) %>" />
+    <input type="text" name="partner" size="180" value="zappisln" />
 
 </form>
 
